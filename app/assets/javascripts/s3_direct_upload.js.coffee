@@ -21,6 +21,7 @@ $.fn.S3Uploader = (options) ->
     remove_completed_progress_bar: true
     remove_failed_progress_bar: false
     progress_bar_target: null
+    dropzone_target: null
     click_submit_target: null
     allow_multiple_files: true
 
