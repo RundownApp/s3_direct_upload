@@ -161,6 +161,7 @@ jQuery ->
     path: 'path/to/my/files/on/s3'
     additional_data: {key: 'value'}
     remove_completed_progress_bar: false
+    dropzone_target: $('.upload')
     before_add: myCallBackFunction # must return true or false if set
     progress_bar_target: $('.js-progress-bars')
     click_submit_target: $('.submit-target')
