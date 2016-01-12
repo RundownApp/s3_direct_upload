@@ -42,6 +42,8 @@ $.fn.S3Uploader = (options) ->
 
   setUploadForm = ->
     $uploadForm.find("input[type='file']").fileupload
+    
+    dropZone: settings.dropzone_target
 
       add: (e, data) ->
         file = data.files[0]
